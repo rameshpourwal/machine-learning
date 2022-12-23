@@ -1,0 +1,17 @@
+addStudent:1 >> 1
+addStudent:2 >> 1
+addStudent:3 >> 1
+addStudent:4 >> 1
+addStudent:5 >> 1
+getCounter:1 >> [1, 2, 3, 4, 5]
+getCounter:2 >> []
+isOpen:1 >> True
+isOpen:2 >> False
+addStudent:6 >> 2
+getCounter:1 >> [1, 2, 3, 4, 5]
+getCounter:2 >> [6]
+giveAdmissionTicket: >> 2
+giveAdmissionTicket: >> 1
+giveAdmissionTicket: >> 1
+getCounter:1 >> [4, 5]
+getCounter:2 >> []
